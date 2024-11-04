@@ -22,7 +22,9 @@ body {
     align-items: center;
 }
 
-h1, h2 {
+h1,
+h2,
+address>span {
     font-weight: bold;
     font-family: header;
     color: var(--primary-color);
@@ -32,11 +34,14 @@ h1 {
     font-size: 21pt;
 }
 
-h2 {
+h2,
+address>span {
     font-size: 18pt;
 }
 
-p, a, span {
+p,
+a,
+span {
     font-family: text;
     line-height: 1.4;
 }
@@ -74,7 +79,7 @@ footer {
     margin-bottom: 3rem;
 }
 
-address > p {
+address>p {
     margin-top: .5rem;
 }
 
